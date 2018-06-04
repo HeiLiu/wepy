@@ -1,17 +1,15 @@
 4 lines (14 sloc)  140 Bytes
 node_modules/
-	.DS_Store
-node_modules
-*.log
-package-lock.json
-explorations
-TODOs.md
-dist/*.gz
-dist/*.map
-dist/vue.common.min.js
-test/e2e/reports
-test/e2e/screenshots
+sftp-config.json
+diff
+log
+npm-debug.log
+lib/
+demo/
+.vscode
 coverage
-RELEASE_NOTE*.md
-dist/*.js
-.vscode/
+lerna-debug.log
+/packages/*/lib
+.DS_Store
+.idea
+/yarn.lock
