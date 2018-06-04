@@ -1,0 +1,17 @@
+<style lang="less">
+
+</style>
+<template>
+    <view class="container">我的</view>
+</template>
+<script>
+    // 引入wepy 在node_module下
+    import wepy from 'wepy'
+    // 单页面组件
+    export default class Info extends wepy.page{
+        // es6 class 可以自由的设置属性和方法
+        data={
+
+        }
+    }
+</script>
